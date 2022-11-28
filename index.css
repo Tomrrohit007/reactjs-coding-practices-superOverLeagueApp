@@ -1,0 +1,49 @@
+#root {
+  background-color: #0f172a;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  text-align: center;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+.img-container {
+  height: 80vh;
+}
+.heading {
+  color: #f8fafc;
+}
+
+@media all and (max-width: 767px) {
+  img {
+    height: 160px;
+    width: 160px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
